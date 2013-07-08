@@ -27,6 +27,11 @@ Install vim plugins using Vundle
 
   vim -u ~/.vim/bundles.vim +BundleInstall +q
 
+If you want to use CommandT (OSX):
+
+  /usr/bin/ruby ~/.vim/bundle/Command-T/ruby/command-t/extconf.rb
+  make
+
 == Features
 
 === VIM
