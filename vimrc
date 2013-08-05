@@ -51,6 +51,8 @@ set backspace=indent,eol,start
 set showcmd
 " Enable highlighting for syntax
 syntax on
+" Handlebars syntax
+au BufRead,BufNewFile *.handlebars,*.hbs set ft=html syntax=handlebars
 " Enable file type detection.
 " Use the default filetype settings, so that mail gets 'tw' set to 72,
 " 'cindent' is on in C files, etc.

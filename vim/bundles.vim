@@ -42,3 +42,6 @@ Bundle 'mileszs/ack.vim'
 " Cucumber Helpers
 Bundle 'tpope/vim-cucumber'
 
+" Handlebars Helpers
+Bundle 'nono/vim-handlebars'
+
