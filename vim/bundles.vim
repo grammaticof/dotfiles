@@ -42,6 +42,11 @@ Bundle 'mileszs/ack.vim'
 " Cucumber Helpers
 Bundle 'tpope/vim-cucumber'
 
-" Handlebars Helpers
-Bundle 'nono/vim-handlebars'
+" Mustache and Handlebars syntax
+Bundle 'juvenn/mustache.vim'
 
+" Utility plugin
+Bundle 'xolox/vim-misc'
+
+" Extend the session manager
+Bundle 'xolox/vim-session'
