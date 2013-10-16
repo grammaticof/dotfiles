@@ -29,7 +29,7 @@ Bundle 'tpope/vim-commentary'
 " Vim sugar for the UNIX shell commands that need it the most.
 Bundle 'tpope/vim-eunuch'
 
-" The matchit.vim script allows you to configure % to match more than just 
+" The matchit.vim script allows you to configure % to match more than just
 " single characters.  You can match words and even regular expressions.
 Bundle 'tsaleh/vim-matchit'
 
@@ -60,4 +60,5 @@ Bundle 'xolox/vim-session'
 " Nerdtree
 Bundle 'scrooloose/nerdtree'
 
-
+" Airline
+Bundle 'bling/vim-airline'

@@ -38,6 +38,9 @@ set number
 " set winminheight=5
 " set winheight=999
 
+" mute sounds
+set vb
+
 " This makes RVM work inside Vim. I have no idea why.
 set shell=bash
 " Prevent Vim from clobbering the scrollback buffer. See
@@ -210,7 +213,10 @@ end
 
 " color grb256 molokau github
 colorscheme solarized
-set guifont=Menlo\ Regular:h13
+" set guifont=PragmataPro:h12
+set guifont=Meslo\ LG\ M\ for\ Powerline\RegularForPowerline:h12
+let g:airline_powerline_fonts = 1
+
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " SHOW INVISIBLE CHARS
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
